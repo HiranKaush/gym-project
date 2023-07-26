@@ -18,7 +18,8 @@ const Pricing = () => {
 
             {/* pricing wrapper */}
             <div className="pricing__wrapper">
-                <div className="pricing__item">
+                <div className="pricing__item" data-aos="fade-up"
+              data-aos-duration="1800">
                     <div className="pricing__card-top">
                         <h2 className="section__title">Regular Member </h2>
                         <h2 className="pricing section__title">$60 <span>/Month</span></h2>
@@ -37,7 +38,8 @@ const Pricing = () => {
 
                 </div>
 
-                <div className="pricing__item pricing__item-02">
+                <div className="pricing__item pricing__item-02" data-aos="fade-up"
+              data-aos-duration="2000">
                     <div className="pricing__card-top">
                         <h2 className="section__title">Premium Member </h2>
                         <h2 className="pricing section__title">$75 <span>/Month</span></h2>
@@ -56,7 +58,8 @@ const Pricing = () => {
 
                 </div>
 
-                <div className="pricing__item">
+                <div className="pricing__item" data-aos="fade-up"
+              data-aos-duration="1500">
                     <div className="pricing__card-top">
                         <h2 className="section__title">Standard Member </h2>
                         <h2 className="pricing section__title">$100 <span>/Month</span></h2>

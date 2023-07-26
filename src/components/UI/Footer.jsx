@@ -7,7 +7,8 @@ const Footer = () => {
     const year = new Date().getFullYear()
 
   return (
-    <footer className="footer">
+    <footer className="footer" data-aos="fade-up"
+    data-aos-duration="1500">
         <div className="container">
             <div className="footer__wrapper">
                 <div className="footer__box">
