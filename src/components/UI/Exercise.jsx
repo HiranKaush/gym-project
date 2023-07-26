@@ -5,7 +5,7 @@ import yoga from '../../assests/yoga.png'
 import workout from '../../assests/workout.png'
 const Exercise = () => {
   return (
-    <section>
+    <section id='schedule'>
         <div className="container exercise__container">
             <div className="exercise__top">
                 <h2 className="section__title">

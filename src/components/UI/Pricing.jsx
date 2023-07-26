@@ -5,7 +5,7 @@ import { RiCheckboxBlankCircleFill } from "react-icons/ri";
 
 const Pricing = () => {
   return (
-    <section>
+    <section id='pricing'>
         <div className="container">
             <div className="pricing__top">
                 <h2 className="section__title">

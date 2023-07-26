@@ -3,7 +3,7 @@ import '../../styles/start.css'
 import StartImg from '../../assests/start.png'
 const Start = () => {
   return (
-    <section>
+    <section id='classes'>
         <div className="container">
             <div className="start__wrapper">
                 <div className="start__img">

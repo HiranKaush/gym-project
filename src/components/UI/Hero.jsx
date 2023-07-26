@@ -7,7 +7,7 @@ import dumbleICon from '../../assests/dumble.png'
 import '../../styles/hero.css'
 const Hero = () => {
   return (
-    <section >
+    <section id='home'>
         <div className="container">
             <div className="hero__wrapper">
 
